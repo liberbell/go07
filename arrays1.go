@@ -9,4 +9,8 @@ func main() {
 	z[2] = "World"
 
 	fmt.Println(z)
+
+	var y [4]int
+	y[3] = 10
+	fmt.Println(y)
 }
