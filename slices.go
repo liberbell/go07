@@ -7,6 +7,6 @@ func main() {
 	fmt.Println("Slice = ", slice)
 
 	for i := 0; i < len(slice); i++ {
-		fmt.Println("Slice[%d] = %d\n", i, slice[i])
+		fmt.Printf("Slice[%d] = %d\n", i, slice[i])
 	}
 }
