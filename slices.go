@@ -10,4 +10,5 @@ func main() {
 	// 	fmt.Printf("Slice[%d] = %d\n", i, slice[i])
 	// }
 	fmt.Println("Slice[1:4] = ", slice[1:4])
+	fmt.Println("Slice[:3]  ==", slice[:3])
 }
