@@ -1,8 +1,10 @@
 package main
 
+import "fmt"
+
 func main() {
 	a := make([]int, 4)
-	printSl(("a", a))
+	printSl("a", a)
 }
 
 func printSl(s string, x []int) {
