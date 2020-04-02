@@ -7,5 +7,5 @@ func main() {
 	slice2 := append(slice1, 11, 12)
 	slice3 := make([]int, 2)
 	copy(slice3, slice1)
-	fmt.Println(slice1, slice2)
+	fmt.Println(slice1, slice2, slice3)
 }
