@@ -8,5 +8,5 @@ type Rect struct {
 }
 
 func main() {
-	fmt.Println(Rect(7, 8))
+	fmt.Println(Rect{7, 8})
 }
