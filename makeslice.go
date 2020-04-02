@@ -9,6 +9,8 @@ func main() {
 	printSl("b", b)
 	c := b[:1]
 	printSl("c", c)
+	d := c[2:4]
+	printSl("d", d)
 }
 
 func printSl(s string, x []int) {
