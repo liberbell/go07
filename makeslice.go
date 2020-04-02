@@ -7,6 +7,8 @@ func main() {
 	printSl("a", a)
 	b := make([]int, 0, 4)
 	printSl("b", b)
+	c := b[:1]
+	printSl("c", c)
 }
 
 func printSl(s string, x []int) {
