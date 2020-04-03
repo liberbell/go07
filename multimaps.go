@@ -1,0 +1,9 @@
+package main
+
+import "fmt"
+
+func main() {
+	w := make(map[string]int)
+	w["Answer"] = 10
+	fmt.Println("The valeu: ", w["Answer"])
+}
