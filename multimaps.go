@@ -12,4 +12,7 @@ func main() {
 
 	delete(w, "Answer")
 	fmt.Println("The value: ", w["Answer"])
+
+	v, ok = w["Answer"]
+	fmt.Println("The value: ", v, "Presetn?", ok)
 }
