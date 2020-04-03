@@ -9,4 +9,7 @@ func main() {
 
 	w["Answer"] = 20
 	fmt.Println("The value: ", w["Answer"])
+
+	delete(w, "Answer")
+	fmt.Println("The value: ", w["Answer"])
 }
