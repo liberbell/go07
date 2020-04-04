@@ -9,3 +9,6 @@ furn (r Root) Abs() float64 {
 	return float64(r)
 }
 
+func main() {
+	r := Root(-math.Sqrt2)
+}
