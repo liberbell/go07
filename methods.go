@@ -1,6 +1,11 @@
 package main
 
-tyep Root struct {
+import (
+	"fmt"
+	"math"
+)
+
+type Root struct {
 	A, B float64
 }
 
