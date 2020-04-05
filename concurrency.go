@@ -9,7 +9,10 @@ func f(msg int) {
 }
 
 func main() {
-	go f("value of i")
-	var input string
-	fmt.Scanln(&input)
+	// go f("value of i")
+	// var input string
+	// fmt.Scanln(&input)
+
+	msg()
+	fmt.Println("\nMessage from func main, I`m finished.")
 }
