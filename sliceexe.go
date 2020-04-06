@@ -16,5 +16,7 @@ func main() {
 		slice[i] = v - 5
 	}
 	fmt.Println("\nThe new value in our slice:")
-	report("slice", slice)
+	// report("slice", slice)
+
+	fmt.Println("\nNow we`ll append 2 values to slice")
 }
