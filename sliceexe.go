@@ -12,9 +12,9 @@ func main() {
 	fmt.Println("len slice == ", len(slice))
 	fmt.Println("cap slice == ", cap(slice))
 
-	for i, v in range slice {
-		slice[i] = v -5
+	for i, v := range slice {
+		slice[i] = v - 5
 	}
-	fmt.Println("\nThe new value in our slice:")
-	report("slice", slice)
+	// fmt.Println("\nThe new value in our slice:")
+	// report("slice", slice)
 }
