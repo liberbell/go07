@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"time"
+)
 
 func f(msg int) {
 	for i := 0; i < 10; i++ {
@@ -15,4 +18,5 @@ func main() {
 
 	msg()
 	fmt.Println("\nMessage from func main, I`m finished.")
+	time.Sleep(time.Millisecond * 2500)
 }
