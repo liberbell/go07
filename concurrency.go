@@ -18,7 +18,7 @@ func main() {
 
 	go msg()
 	fmt.Println("\nMessage from func main, I`m finished.")
-	time.Sleep(time.Millisecond * 2500)
+	time.Sleep(time.Millisecond * 7500)
 }
 
 func msg() {
