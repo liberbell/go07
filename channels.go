@@ -7,3 +7,9 @@ func sum(a []int, ch chan int) {
 	}
 	ch <- sum
 }
+
+func main() {
+	a := []int{7, 0, -3, 5, 0, 4}
+
+	ch := make(chan int)
+}
