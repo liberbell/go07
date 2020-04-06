@@ -10,4 +10,11 @@ func main() {
 	fmt.Println("slice[:3] == ", slice[:3])
 	fmt.Println("slice[2:] == ", slice[2:])
 	fmt.Println("len slice == ", len(slice))
+	fmt.Println("cap slice == ", cap(slice))
+
+	for i, v in range slice {
+		slice[i] = v -5
+	}
+	fmt.Println("\nThe new value in our slice:")
+	report("slice", slice)
 }
