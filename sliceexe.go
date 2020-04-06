@@ -15,6 +15,6 @@ func main() {
 	for i, v := range slice {
 		slice[i] = v - 5
 	}
-	// fmt.Println("\nThe new value in our slice:")
-	// report("slice", slice)
+	fmt.Println("\nThe new value in our slice:")
+	report("slice", slice)
 }
