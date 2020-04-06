@@ -16,7 +16,7 @@ func main() {
 	// var input string
 	// fmt.Scanln(&input)
 
-	msg()
+	go msg()
 	fmt.Println("\nMessage from func main, I`m finished.")
 	time.Sleep(time.Millisecond * 2500)
 }
