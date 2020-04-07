@@ -21,4 +21,8 @@ func main() {
 	fmt.Println("\nNow we`ll append 2 values to slice")
 	slice = append(slice, 10, 20)
 	// report("slice", slice)
+
+	fmt.Println("\nNow we`ll append 8 more values to slice")
+	slice = resize(slice)
+	report("slice", slice)
 }
